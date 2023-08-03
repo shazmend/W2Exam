@@ -1,0 +1,193 @@
+/* iphone */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(242, 239, 234);
+        margin: 0;
+        width: 100%;
+        height: 120vh;
+    }
+    .Navbar{
+        background-color: rgb(227, 195, 234);
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .Navbar img{
+        margin-left: 4vw;
+    }
+    .nav{
+        display: none;
+    }
+    #icon{
+        color: white;
+        margin-right: 4vw;
+        margin-top: 5vw;
+        
+    }
+    .HeaderText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+    }
+    .HeaderText h1{
+        color: rgb(148, 71, 176);    
+    }
+    .HeaderText a{
+        color: white;
+        background-color: rgb(148, 71, 176); 
+        font-size: medium;
+        font-weight: lighter;
+        border-radius: 100px; 
+        padding: 1vh 5vw; 
+        text-decoration: none; 
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        
+    }
+    .ImgContainer{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-columns: repeat(3,auto);
+        gap: 2vh;
+        width: 70%;
+        margin-left: 15vw;
+        
+    }
+    .UperImg{   
+        grid-column: 1/3 ;
+    }
+    .CenterLeft{
+        grid-column: 1/2 ;
+        grid-row: 2/3;   
+    }
+    .CenterRihgt{
+        grid-column: 2/3 ;
+        grid-row: 2/3;     
+    }
+    .ButtomnImg{
+        grid-column: 1/3 ;
+        grid-row: 3/4;     
+    }
+    .footer{
+        display: none;
+    }
+    footer p{
+        display: none;
+     }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(242, 239, 234);
+        margin: 0;
+        width: 100%;
+        height: 120vh;
+    }
+    .Navbar{
+        background-color: rgb(227, 195, 234);
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .Navbar img{
+        margin-left: 4vw;
+    }
+    .nav{
+        margin-right: 4vw;
+        margin-top: 4vh;
+    }
+    .nav li{
+        display: inline;
+        padding: 6vh;
+
+    }
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: larger;  
+    }
+    #icon{
+        display: none;
+    }
+    .HeaderText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        margin-top: 50vh;
+        margin-left: 7vh;
+    }
+    .HeaderText h1{
+        color: rgb(148, 71, 176); 
+        font-size: xx-large;   
+        font-weight: bolder;
+    }
+    .HeaderText a{
+        color: white;
+        background-color: rgb(148, 71, 176); 
+        font-size: large;
+        font-weight: lighter;
+        border-radius: 100px; 
+        padding: 2vh 8vw; 
+        text-decoration: none; 
+        margin-top: 10vh;
+    }
+    .HeaderText p{
+        font-size: x-large;
+        margin-bottom: 8vh;
+    }
+    .container{  
+        display: flex;
+        justify-items: center;
+        height: 110vh;
+
+        
+    }
+    .ImgContainer{
+        display: relative;
+    }
+    .UperImg{   
+        position: absolute;
+        top: 50%; 
+        right: 5%; 
+        width: 70vh;
+    }
+    .CenterLeft{
+      position: absolute;     
+      top: 40%;
+      right: 45%;
+      width: 20vh;
+    }
+    .CenterRihgt{
+        position: absolute;     
+        top: 80%;
+        right: 0%;
+        width: 30vh;   
+    }
+    .ButtomnImg{
+        position: absolute;     
+        top: 85%;
+        right: 17%;
+        width: 20vh;   
+        height: 20vh;   
+    }
+    footer{
+        background-color: rgb(227, 195, 234);
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer p{
+       color: white;
+       font-size: large;
+    }
+    
+}
